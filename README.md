@@ -9,3 +9,4 @@ Integrantes:
  - Letícia dos Santos
  - Maria Eduarda Abreu
  - Renata Wrobleski
+ - Luana Souza de Mattos
