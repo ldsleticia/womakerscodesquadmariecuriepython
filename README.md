@@ -1,7 +1,9 @@
 # womakerscodesquadmariecuriepython
-womakerscode bootcamp python django com exercicios de python básico
+<h1>Womakerscode bootcamp python django com exercicios de python básico - Semana 3</h1>
 
-Integrantes:
+
+
+<p>Integrantes:</p>
  - Beatriz Martins Cabral
  - Cristiane Matos
  - Daniela Barbosa Vidal
@@ -10,3 +12,6 @@ Integrantes:
  - Maria Eduarda Abreu
  - Renata Wrobleski
  - Luana Souza de Mattos
+
+ Divisão e organização entre os exercícios: 
+ https://trello.com/b/2TH5CzmX/squad-marie-curie-womakers-code
