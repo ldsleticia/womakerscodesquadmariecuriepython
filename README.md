@@ -6,7 +6,7 @@
 
 
 
-<p>Integrantes:</p>
+Integrantes:
  - Beatriz Martins Cabral
  - Cristiane Matos
  - Daniela Barbosa Vidal
@@ -16,5 +16,5 @@
  - Renata Wrobleski
  - Luana Souza de Mattos
 
- Divisão e organização entre os exercícios: 
+ <h3>Divisão e organização entre os exercícios: </h3>
  https://trello.com/b/2TH5CzmX/squad-marie-curie-womakers-code
