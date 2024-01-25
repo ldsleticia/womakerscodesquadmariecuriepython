@@ -1,5 +1,8 @@
 # womakerscodesquadmariecuriepython
-<h1>Womakerscode bootcamp python django com exercicios de python básico - Semana 3</h1>
+
+<h1>Womakerscode  - Squad Marie Curie </h1>
+
+<h2> Bootcamp python django com exercicios de python básico - Semana 3</h2>
 
 
 
