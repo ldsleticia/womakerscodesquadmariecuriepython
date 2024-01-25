@@ -7,7 +7,7 @@ contatos = {
 }
 
 # Solicita o nome do usuário a ser procurado
-nome_procurado = input("Digite o nome do contato que deseja procurar: ")
+nome_procurado = input("Digite o nome do contato que deseja procurar: ").lower()
 
 # Verifica se o nome está no dicionário e imprime o resultado
 if nome_procurado in contatos:
