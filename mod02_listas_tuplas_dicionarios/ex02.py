@@ -1,17 +1,30 @@
-from functools import reduce
+#Exercício 2 Módulo 3
+def calcular_medias():
+    medias = []  # Lista para armazenar as médias dos alunos
+    alunos_com_media_7_ou_mais = 0  # Contador de alunos com média >= 7
 
-quantidade_de_alunos = 5
-quantidade_de_notas_por_aluno = 4
-medias_maiores_que_sete = 0
-medias = []
+    for i in range(5):  # Loop para 5 alunos
+        print(f"Aluno {i+1}:")
+        total_notas = 0
+        for j in range(4):  # Loop para 4 notas
+            while True:
+                try:
+                    nota = float(input(f"Digite a nota {j+1}: "))
+                    if 0 <= nota <= 10:  # Verifica se a nota está no intervalo válido
+                        break
+                    else:
+                        print("Por favor, digite uma nota entre 0 e 10.")
+                except ValueError:
+                    print("Entrada inválida. Por favor, digite um número.")
 
-for aluno_atual in range(1, quantidade_de_alunos):
-    notas_aluno = []
-    for nota_atual in range(1, quantidade_de_notas_por_aluno):
-        nota_digitada = float(input(f'Digite a nota {nota_atual} do aluno {aluno_atual}: '))
-        notas_aluno.append(nota_digitada)
-    medias.append(sum(notas_aluno) / len(notas_aluno))
+            total_notas += nota
+        media = total_notas / 4
+        medias.append(media)  # Adiciona a média na lista
 
-medias_maiores_que_sete = reduce(lambda acc, el: acc + 1 if el >= 7.0 else acc + 0, medias, 0)
+        if media >= 7.0:
+            alunos_com_media_7_ou_mais += 1
 
-print(f'A quantidade de medias maiores que 7 é {medias_maiores_que_sete}')
+    print("Médias dos alunos:", medias)
+    print(f"Número de alunos com média maior ou igual a 7.0: {alunos_com_media_7_ou_mais}")
+
+calcular_medias()
