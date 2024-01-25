@@ -1,14 +1,10 @@
-def inverte_numero(numero):
-    # Converte o número para uma string e inverte a ordem dos caracteres
-    numero_invertido = str(numero)[::-1]
-    
-    # Converte o resultado de volta para um inteiro
-    numero_invertido = int(numero_invertido)
-    
-    return numero_invertido
+#Exercício 2 Módulo 4
 
-# Exemplo de uso:
-numero_original = 127
-numero_invertido = inverte_numero(numero_original)
+def reverso_numero(num):
+    num_str = str(num)            # Converte o número para string
+    num_str_reverso = num_str[::-1]  # Inverte a string
+    return num_str_reverso   # Mantém como string
 
-print(f'O número invertido de {numero_original} é {numero_invertido}')
+numero = input("Digite um número inteiro: ")
+numero_reverso = reverso_numero(numero)
+print("O reverso do número é:", numero_reverso)
