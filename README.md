@@ -4,7 +4,7 @@
 
 <h2> Bootcamp python django com exercicios de python básico - Semana 3</h2>
 
-
+Exercícios distribuídos por sorteio entre as integrantes da Squad
 
 Integrantes:
  - Beatriz Martins Cabral
